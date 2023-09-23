@@ -18,7 +18,7 @@ cnt=0
 
 for i in range(m):
     a = d.popleft()
-    if a < (n//2):
+    if a < (n//2): #이쪽을 수정해야됨
         while True:
             b = q.popleft()
             if b==a:# 찾고자 하는 값 찾음
